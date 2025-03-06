@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 55px;
+    width: 120px;
+}
+.logo {
+    height: 50px;
+    width: 100px;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-add{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    color: #ffffff;
+    margin-right: 8px;
+    margin-top: 10px;
+    
+}
+.add{
+    color: #cccccc;
+    font-size: 12px;
+}
+.country{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navborder {
+    border: 2px solid transparent;
+}
+
+.navborder:hover {
+    border: 2px solid white;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    border: none;
+}
+.dropdown{
+    color: #0f1111;
+    background-color: #f3f3f3;
+    height: 35px;
+    width: 65px;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searcher{
+    color: #0f1111;
+    background-color: #ffffff;
+    height: 35px;
+    width: 450px;
+    padding-left: 7px;
+    border: none;
+}
+
+.magni{
+    background-color: #f08804;
+    color: #0f1111;
+    height: 35px;
+    width: 60px;
+    align-items: center;
+    border: none;
+    margin-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.language-selection{
+    display: flex;
+    height: 50px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag{
+    height: 14px;
+    width: 14px;
+    background-image: url("usa.jpg");
+    background-size: cover;
+    margin-right: 4px;
+}
+
+.lang{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.down-arrow{
+    color: #ffffff;
+    margin-right: 4px;
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+}
+.first-text{
+    color: #ffffff;
+    font-size: 12px;
+    
+}
+.second-text{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.down2{
+    color: #ffffff;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.idk{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-first{
+    color: #ffffff;
+    font-size: 12px;
+}
+.text-second{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cart{
+    display: flex;
+    height: 50px;
+    width: 85px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.cart-logo{
+    color: #ffffff;
+}
+
+.cart-text{
+    color: #ffffff;
+}
+
+.info-bar{
+    height: 40px;
+    background-color: #262d4e;
+    display: flex;
+   align-items: center;
+}
+.menuborder{
+    border: 2px solid transparent;
+}
+.menuborder:hover{
+    border: 2px solid white;
+}
+.all-menu{
+    display: flex;
+    padding: 8px;
+    margin-left: 10px;
+}
+.bars{
+    color: #ffffff;
+}
+.all-text{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.todays-deals{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px;
+    margin-left: 3px;
+}
+
+.customer-service{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px;
+    margin-left: 3px;
+}
+.registry, .gift, .sell{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px;
+    margin-left: 3px;
+}
+
+.hero-section{
+    height: 350px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+}
+.hero-msg p {
+    font-size: 14px;
+    color: black;
+}
+
+.shopping-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #bae0b7;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+}
+.box{
+    padding: 20px 0px 15px 0px;
+}
+
+.box1-heading{
+    color: black;
+    font-weight: bold;
+}
+.box1-img{
+    height: 300px;
+    background-image: url("box1.jpg") ;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2-img{
+    height: 300px;
+    background-image: url("box2.jpg") ;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box3-img{
+    height: 300px;
+    background-image: url("box3.jpg") ;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4-img{
+    height: 300px;
+    background-image: url("box4.jpg") ;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box1-content a{
+    color: #2162a1;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box1-heading{
+    color: black;
+    font-weight: bold;}
+
+.back-top{
+    height: 60px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.back-top p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sign {
+    margin-top: 40px;
+    height: 180px;
+    width: 100%;
+    display: flex; /* Keep flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black; /* Use a visible border */
+    border-radius: 5px;
+}
+
+.first-p{
+    color: #0f1111;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.sec-p{
+    font-size: 11px;
+    color: black;
+
+}
+
+.sign a{
+    font-size: 11px;
+    color: #2162a1;
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    height: 30px;
+    width: 170px;
+    padding: 0px 10px 0px 11px;
+    font-size: 13px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f08804;
+    color: #0f1111;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel2{
+    height: 300px;
+    background-color: #222f3d;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+ul p{
+    margin-top: 40px;
+    color: #cccccc;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+ul a {
+    display: block;
+    margin-top: 10px;
+    color: #cccccc;
+    font-size: 14px;
+
+}
+
+.panel3{
+    height: 100px;
+    width: 100%;
+    background-color: #222f3d;
+    border-top: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo2{
+    height: 26px;
+    width: 76px;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-box{
+    height: 34px;
+    width: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+
+.globe{
+    color: #cccccc;
+    height: 15px;
+    width: 15px;
+
+}
+
+p{
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.down-up-icon{
+    color: #cccccc;
+    height: 12px;
+    width: 15px;
+}
+
+.dollar{
+    height: 34px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+
+.usd{
+    color: #cccccc;
+    height: 15px;
+    width: 15px;
+
+}
+
+.flag-us{
+    height: 34px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+
+.us-flag{
+    height: 30px;
+    width: 40%;
+    padding: 3px;
+    background-image: url("usa.jpg");
+    background-size: cover;
+}
